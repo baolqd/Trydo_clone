@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Cache-control" content="public">
+    <meta
+  name="description"
+  content="A VietNamese restaurant website for everyone to know about us and our menu.">
+    <meta name="theme-color" content="#0c1023"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preload" as="style" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="css/flickity.min.css" rel="stylesheet">
+    <link href="js/flickity.pkgd.min.js" rel="script">
+   
+
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+     </style>
+
+    <title>Main Demo || React Multipurpose Template </title>
+  </head>
+  <body>
+<!-- Hamburger side nav-->
+<section id="side-nav" class="side-nav ">
+  <div id="sideNavContent" class="side-nav-content ">
+      <div class="close-side-nav-btn-con">
+        <svg id="closeSideNav" class="close-side-nav-btn" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" class="feather feather-x">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+      </div>
+      <div>
+          <ul class="side-nav-con">
+              <li  id="Home-button" class="side-nav-list-item" >
+                  <a href="javascript:void(0);">Home</a>
+                  <ul   class="side-nav-list-item-list  hidden">
+                      <li> Main Demo</li>
+                      <li> Main Demo Dark</li>
+                      <li>Creative Agency</li>
+                      <li>Creative Agency Landing</li>
+                      <li>Personal Portfolio</li>
+                      <li>Personal Portfolio 02</li>
+                      <li>Personal Portfolio Landing</li>
+                      <li>Designer Portfolio</li>
+                      <li>Creative Portfolio</li>
+                      <li>Business</li>
+                      <li>Digital Agency</li>
+                      <li>Minimal Portfolio</li>
+                      <li>Studio Agency</li>  
+                      <li>Home Particles</li>
+                      <li>Startup</li>
+                      <li>Home Paralax</li>
+                      <li>Corporate Business</li>
+                  </ul>
+              </li>
+              <li  class="side-nav-list-item" >
+                  <a href="javascript:void(0);">Service</a>
+                  <ul class="side-nav-list-item-list hidden ">
+                      <li> Main Demo</li>
+                      <li>Main Demo Dark</li>
+                      <li>Creative Agency</li>
+                      <li>Creative Agency Landing</li>
+                      <li>Personal Portfolio</li>
+                      <li>Personal Portfolio 02</li>
+                  </ul>
+              </li>
+              <li class="side-nav-list-item" >
+                  <a href="javascript:void(0);">About</a>
+              </li>
+              <li class="side-nav-list-item" >
+                <a href="javascript:void(0);">Pages</a>
+                <ul class="side-nav-list-item-list hidden ">
+                    <li> Main Demo</li>
+                    <li>Main Demo Dark</li>
+                    <li>Creative Agency</li>
+                    <li>Creative Agency Landing</li>
+                    <li>Personal Portfolio</li>
+                    <li>Personal Portfolio 02</li>
+                    <li>Personal Portfolio Landing</li>
+                    <li>Designer Portfolio</li>
+                    <li>Creative Portfolio</li>
+                    <li>Business</li>
+                    <li>Digital Agency</li>
+                </ul>
+            </li>
+            <li class="side-nav-list-item" >
+              <a href="javascript:void(0);">Blocks</a>
+              <ul class="side-nav-list-item-list hidden ">
+                  <li> Main Demo</li>
+                  <li>Main Demo Dark</li>
+                  <li>Creative Agency</li>
+                  <li>Creative Agency Landing</li>
+                  <li>Personal Portfolio</li>
+                  <li>Personal Portfolio 02</li>
+                  <li>Personal Portfolio Landing</li>
+                  <li>Designer Portfolio</li>
+                  <li>Creative Portfolio</li>
+                  <li>Business</li>
+                  <li>Digital Agency</li>
+              </ul>
+          </li>
+          <li class="side-nav-list-item" >
+            <a href="javascript:void(0);">Contact</a>
+        </li>
+          </ul>
+
+      </div>
+  </div>
+</section>
+    <section class="home-section">
+    <header class="header"> 
+      <nav class="main-nav">
+      
+        <div class="logo"><img src="images/logo/logo.png" alt="logo"></div>
+        <ul class="nav-list">
+          <li><a href="#">Home</a>
+          <ul>
+            <li><a href="#">Main Demo</a> </li>
+            <li><a href="#">Main Demo Dark</a> </li>
+            <li><a href="#">Creative Agency</a> </li>
+            <li><a href="#">Creative One Page</a> </li>
+            <li><a href="#">Creative Portfolio</a> </li>
+            <li><a href="#">Personal Portfolio</a> </li>
+            <li><a href="#">Porfolio One Page</a> </li>
+            <li><a href="#">Porfolio One Page 2</a> </li>
+            <li><a href="#">Digital Agency</a> </li>
+            <li><a href="#">Start Up</a> </li>
+            <li><a href="#">Paralax</a> </li>
+            <li><a href="#">Minimal Portfolio</a> </li>
+            <li><a href="#">Business</a> </li>
+            <li><a href="#">Home Particles</a> </li>
+            <li><a href="#">Studio Agency</a> </li>
+            <li><a href="#">Designer Porfolio</a> </li>
+            <li><a href="#">Interactive Agency</a> </li>
+          </ul>
+          </li>
+          <li><a href="#">Service</a>
+            <ul>
+              <li><a href="#">Service</a> </li>
+              <li><a href="#">Service Details</a> </li>
+            </ul>
+          </li>
+          <li><a href="#about">About</a>
+          </li>
+          <li><a href="#our-menu">Pages</a> 
+            <ul>
+            <li><a href="#">Blog List</a> </li>
+            <li><a href="#">Blog Details</a> </li>
+            <li><a href="#">Service</a> </li>
+            <li><a href="#">Service Details</a> </li>
+            <li><a href="#">Portfolio</a> </li>
+            <li><a href="#">Portfolio Details</a> </li>
+            <li><a href="#">404</a> </li>
+          </ul>
+            </li>
+          <li><a href="#team">Blocks</a>
+          <ul>
+            <li><a href="#">Main Demo</a> </li>
+            <li><a href="#">Main Demo Dark</a> </li>
+            <li><a href="#">Creative Agency</a> </li>
+            <li><a href="#">Creative One Page</a> </li>
+            <li><a href="#">Creative Portfolio</a> </li>
+            <li><a href="#">Personal Portfolio</a> </li>
+            <li><a href="#">Porfolio One Page</a> </li>
+            <li><a href="#">Porfolio One Page 2</a> </li>
+            <li><a href="#">Digital Agency</a> </li>
+            <li><a href="#">Start Up</a> </li>
+            <li><a href="#">Paralax</a> </li>
+            <li><a href="#">Minimal Portfolio</a> </li>
+            <li><a href="#">Business</a> </li>
+          </ul>
+          </li>
+          <li><a href="#team"> Contact</a> </li>
+          <li class="btn btn-default">BUY NOW</li>
+        </ul>
+        <div class="header-right-hamburger">
+          <a href="#" class=" btn btn-default">buy now</a>
+          <svg id="hamburgerOpen" class="hamburger" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+      </div>
+      </nav> 
+</header>
+  <div class="container min-vh-100">
+    <div class="row  align-items-center ">
+      <div class="home-text ">
+        <h1 class="theme-gradient">A DIGTIAL <br> AGENCY<span class="dot"></span></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="service">
+        <div class="icon"><img src="images/icons/icon-01.png" alt="Business Stratagy"></div>
+        <div class="content">
+          <div class="hero">Business Stratagy</div>
+          <div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="images/icons/icon-02.png" alt="Business Stratagy"></div>
+        <div class="content">
+          <div class="hero">Website Development</div>
+          <div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="icon"><img src="images/icons/icon-03.png" alt="Business Stratagy"></div>
+        <div class="content">
+          <div class="hero">Marketing & Reporting</div>
+          <div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-section">
+  <div class="container">
+      <div class="about-container">
+          <div class="about-thumbnail"><img src="images/about/about-1.jpg" alt="about thumbnail" srcset=""></div>
+          <div class="about-content">
+              <div class="main-about" id="about">
+                  <h1>About
+                  </h1>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                      suffered
+                      alteration in some form, by injected humour, or randomised words which dont look even
+                      slightly
+                      believable. If you are going to use a passage of Lorem Ipsum,</p>
+              </div>
+              <div class="about-bottom-content">
+
+                  <div class="small-about">
+                      <h1>Who we are
+
+                      </h1>
+                      <p>There are many vtions of passages of Lorem Ipsum available, but the majority have
+                          suffered
+                      </p>
+                  </div>
+                  <div class="small-about">
+                      <h1>Who we are
+
+                      </h1>
+                      <p>There are many vtions of passages of Lorem Ipsum available, but the majority have
+                          suffered
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="services-section bg-image bg--image3">
+  <div class="container min-vh-100">
+      <div class="about-container">
+          <div class="left-service-cont">
+              <div class="main-about">
+                  <h1>Services
+                  </h1>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                      suffered
+                      alteration.</p>
+              </div>
+              <div class="service-btn">
+                  <a href="">
+                      <span>
+                          Request Custom Service
+                      </span>
+                  </a>
+
+              </div>
+          </div>
+          <div class="right-service-cont">
+              <div class="service-element-srv">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-cast svg-srv">
+                      <path
+                          d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"
+                          stroke="#f9004d" fill="none"></path>
+                      <line x1="2" y1="20" x2="2.01" y2="20" stroke="#f9004d" fill="none"></line>
+                  </svg>
+                  <div class="content">
+                      <h3>Business Stratagy
+                      </h3>
+                      <p>I throw myself down among the tall grass by the stream as I lie close to the earth.
+                      </p>
+                  </div>
+
+
+              </div>
+              <div class="service-element-srv">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-layers svg-srv">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2" stroke="#f9004d" fill="none"></polygon>
+                      <polyline points="2 17 12 22 22 17" stroke="#f9004d" fill="none"></polyline>
+                      <polyline points="2 12 12 17 22 12" stroke="#f9004d" fill="none"></polyline>
+                  </svg>
+                  <div class="content">
+                      <h3>Business Stratagy
+                      </h3>
+                      <p>I throw myself down among the tall grass by the stream as I lie close to the earth.
+                      </p>
+                  </div>
+
+
+              </div>
+              <div class="service-element-srv">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-users svg-srv">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#f9004d" fill="none"></path>
+                      <circle cx="9" cy="7" r="4" stroke="#f9004d" fill="none"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="#f9004d" fill="none"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="#f9004d" fill="none"></path>
+                  </svg>
+                  <div class="content">
+                      <h3>Business Stratagy
+                      </h3>
+                      <p>I throw myself down among the tall grass by the stream as I lie close to the earth.
+                      </p>
+                  </div>
+
+
+              </div>
+              <div class="service-element-srv">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-monitor svg-srv">
+                      <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="#f9004d" fill="none"></rect>
+                      <line x1="8" y1="21" x2="16" y2="21" stroke="#f9004d" fill="none"></line>
+                      <line x1="12" y1="17" x2="12" y2="21" stroke="#f9004d" fill="none"></line>
+                  </svg>
+                  <div class="content">
+                      <h3>Business Stratagy
+                      </h3>
+                      <p>I throw myself down among the tall grass by the stream as I lie close to the earth.
+                      </p>
+                  </div>
+
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="works-section">
+  <div class="container">
+    <div class="works-container">
+      <div class="works-header">
+        <h1 class="works-hero">All Works</h1>
+        <p class="works-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+      </div>
+      <div class="slide-container">
+
+        <div class=" carousel">
+            <div class="slide-item carousel-cell ">
+                <div class="slide-item-shadow">
+
+                </div>
+                <div class="slide-item-content ">
+                    <p>Development</p>
+                    <h3>Getting tickets to the big show</h3>
+                    <button class="btn btn-default slide-btn">case study</button>
+                </div>
+                <div class="slide-thumbnail thumbnail1"></div>
+
+            </div>
+            <div class="slide-item carousel-cell">
+                <div class="slide-item-shadow">
+
+                </div>
+                <div class="slide-item-content">
+                    <p>Development</p>
+                    <h3>Getting tickets to the big show</h3>
+                    <button class="btn btn-default slide-btn">case study</button>
+                </div>
+                <div class="slide-thumbnail thumbnail2"></div>
+
+            </div>
+            <div class="slide-item carousel-cell">
+                <div class="slide-item-shadow">
+
+                </div>
+                <div class="slide-item-content">
+                    <p>Development</p>
+                    <h3>Getting tickets to the big show</h3>
+                    <button class="btn  btn-default slide-btn">case study</button>
+                </div>
+                <div class="slide-thumbnail thumbnail3"></div>
+
+            </div>
+            <div class="slide-item carousel-cell">
+                <div class="slide-item-shadow">
+
+                </div>
+                <div class="slide-item-content">
+                    <p>Development</p>
+                    <h3>Getting tickets to the big show</h3>
+                    <button class="btn  btn-default slide-btn">case study</button>
+                </div>
+                <div class="slide-thumbnail thumbnail4"></div>
+
+            </div>
+            <div class="slide-item carousel-cell">
+                <div class="slide-item-shadow">
+
+                </div>
+                <div class="slide-item-content">
+                    <p>Development</p>
+                    <h3>Getting tickets to the big show</h3>
+                    <button class="btn btn-default slide-btn">case study</button>
+                </div>
+                <div class="slide-thumbnail thumbnail5"></div>
+
+            </div>
+            <div class="slide-item carousel-cell">
+                <div class="slide-item-shadow">
+
+                </div>
+                <div class="slide-item-content">
+                    <p>Development</p>
+                    <h3>Getting tickets to the big show</h3>
+                    <button class="btn  btn-default slide-btn">case study</button>
+                </div>
+                <div class="slide-thumbnail thumbnail6"></div>
+
+            </div>
+            <div class="slide-item carousel-cell">
+                <div class="slide-item-shadow">
+
+                </div>
+                <div class="slide-item-content">
+                    <p>Development</p>
+                    <h3>Getting tickets to the big show</h3>
+                    <button class="btn btn-default slide-btn">case study</button>
+                </div>
+                <div class="slide-thumbnail thumbnail7"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fun-facts numbers">
+  <h1 class="fun-facts-hero">Our Fun Facts
+  </h1>
+  <div class="fun-facts-content">
+      <div class="fun-facts-part">
+        <div class="fun-facts-number">
+          <h1 class="value" >922</h1>
+          <h1>+</h1>
+          </div>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
+      </div>
+      <div class="fun-facts-part">
+        <div class="fun-facts-number">
+          <h1 class="value" >575</h1>
+          <h1>+</h1>
+          </div>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
+      </div>
+      <div class="fun-facts-part">
+        <div class="fun-facts-number">
+          <h1 class="value" >69</h1>
+          <h1 class="cross">+</h1>
+          </div>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
+      </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+<section class="feedbacks-section">
+  <div class="container">
+    <div class="feedbacks-container " >
+        <div class="feedback-part active" id="feedback1" >
+        <h1>Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>AKLIMA</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+        </div>
+      <div  class="feedback-part " id="feedback2" >
+        <h1>Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>FATIMA ASRAFY</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+      </div>
+      <div class="feedback-part " id="feedback3" >
+        <h1>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>JANNAT TUMPA</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+      </div>
+      <div class="feedback-part " id="feedback4" >
+        <h1>Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>JOHNS DUE</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+      </div>
+      <div class="feedback-part " id="feedback5" >
+        <h1>John Doe The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>JOHN DOE</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+      </div>
+      <div class="feedback-part " id="feedback6" >
+        <h1>Chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>AMAR ORTHI</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+      </div>
+      <div class="feedback-part " id="feedback7" >
+        <h1>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>FATIMA MA</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+      </div>
+      <div class="feedback-part " id="feedback8" >
+        <h1>Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</h1>
+        <h6><span>FATIMA ASRAFY</span>- COO, AMERIMAR ENTERPRISES, INC.</h6>
+      </div>
+</div>
+      <ol class="feedback-list " id="feedback-menu">
+          <button  type="button" class="feedback-item active"  data-electronic="feedback1"><img src="images/client/testimonial-1.jpg" alt=""></button>
+          <button  type="button" class="feedback-item"  data-electronic="feedback2"><img src="images/client/testimonial-2.jpg" alt=""></button>
+          <button  type="button" class="feedback-item"  data-electronic="feedback3"><img src="images/client/testimonial-3.jpg" alt=""></button>
+          <button  type="button" class="feedback-item"  data-electronic="feedback4"><img src="images/client/testimonial-4.jpg" alt=""></button>
+          <button  type="button" class="feedback-item"  data-electronic="feedback5"><img src="images/client/testimonial-5.jpg" alt=""></button>
+          <button  type="button" class="feedback-item"  data-electronic="feedback6"><img src="images/client/testimonial-6.jpg" alt=""></button>
+          <button  type="button" class="feedback-item"  data-electronic="feedback7"><img src="images/client/testimonial-7.jpg" alt=""></button>
+          <button  type="button" class="feedback-item"  data-electronic="feedback8"><img src="images/client/testimonial-8.jpg" alt=""></button>
+        </ol>
+    </div>
+</section>
+<section class="news-section">
+  <div class="container">
+    <div class="news-container">
+      <div class="news-header-left">
+      <h1>Latest News</h1>
+      <h6>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</h6>
+     </div>
+     <div class="news-header-right">
+      <div class="service-btn news-btn">
+        <a href=""><span>View All News</span></a></div>
+      </div>
+      <div class="news-card">
+      <div class="news-item">
+        <div class="news-item-content">
+        <p>Development</p>
+        <h3>Getting the tickets to the big show</h3>
+        <button class="btn btn-default news-btn">Read more</button>
+        </div>
+        <div class="news-thumbnail anh1"></div>
+      </div>
+      <div class="news-item">
+        <div class="news-item-content">
+          <p>Development</p>
+          <h3>Getting the tickets to the big show</h3>
+          <button class="btn btn-default news-btn">Read more</button>
+          </div>
+        <div class="news-thumbnail anh2"></div>
+      </div>
+      <div class="news-item">
+        <div class="news-item-content ">
+          <p>Development</p>
+          <h3>Getting the tickets to the big show</h3>
+          <button class="btn btn-default news-btn">Read more</button>
+          </div>
+        <div class="news-thumbnail anh3"></div>
+      </div>
+      </div>
+      <div class="brands-container">
+        <ul class="brands-list">
+          <li>
+            <img src="images/brand/brand-01.png" alt="brand"></li>
+          <li><img src="images/brand/brand-02.png" alt="brand"></li>
+          <li><img src="images/brand/brand-03.png" alt="brand"></li>
+          <li><img src="images/brand/brand-04.png" alt="brand"></li>
+          <li><img src="images/brand/brand-05.png" alt="brand"></li>
+          <li><img src="images/brand/brand-06.png" alt="brand"></li>
+          <li><img src="images/brand/brand-02.png" alt="brand"></li>
+          <li><img src="images/brand/brand-04.png" alt="brand"></li>
+          <li><img src="images/brand/brand-05.png" alt="brand"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="">
+    <div class="footer-container">
+      <div class="footer-right">
+        <div class="footer-right-content-container">
+          <div class="footer-right-content">
+            <h3>Quick Link</h3>
+            <ul>
+              <li>Work</li>
+              <li>About</li>
+              <li>Let's Talk</li>
+            </ul>
+          </div>
+          <div class="footer-right-content">
+            <h3>Say Hello</h3>
+            <ul>
+            <li>baondse173024@fpt.edu.vn</li>
+            <li><a href="https://www.facebook.com/ducbao1803/"></a>ducbao1803</li>
+            <div class="social-links">
+              <a aria-label="Facebook" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a aria-label="Insta" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a aria-label="Twitter" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+          <a aria-label="Youtube" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fab fa-youtube"></i></a>
+            </div>
+            </ul>
+          </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright © 2021 Rainbow-Themes. All Rights Reserved.
+  
+            </p>
+        </div>
+        </div>
+      <div class="footer-left">
+        <div class="footer-left-content">
+          <p>READY TO DO THIS</p>
+          <H1>Let's get
+            <br>
+            to work
+          </H1>
+          <button class="btn footer-button">contact us</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+<script  type="module" src="js/script.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+    var flky = new Flickity('.carousel', {
+            // options, defaults listed
+
+            accessibility: true,
+            // enable keyboard navigation, pressing left & right keys
+
+            adaptiveHeight: false,
+            // set carousel height to the selected slide
+
+            autoPlay: false,
+            // advances to the next cell
+            // if true, default is 3 seconds
+            // or set time between advances in milliseconds
+            // i.e. `autoPlay: 1000` will advance every 1 second
+
+            cellAlign: 'center',
+            // alignment of cells, 'center', 'left', or 'right'
+            // or a decimal 0-1, 0 is beginning (left) of container, 1 is end (right)
+
+            cellSelector: undefined,
+            // specify selector for cell elements
+
+            contain: true,
+            // will contain cells to container
+            // so no excess scroll at beginning or end
+            // has no effect if wrapAround is enabled
+
+            draggable: true,
+            // enables dragging & flicking
+            // if at least 2 cells
+
+            dragThreshold: 3,
+            // number of pixels a user must scroll horizontally to start dragging
+            // increase to allow more room for vertical scroll for touch devices
+
+            freeScroll: true,
+            // enables content to be freely scrolled and flicked
+            // without aligning cells
+
+            friction: 0.2,
+            // smaller number = easier to flick farther
+
+            groupCells: true,
+            // group cells together in slides
+
+            initialIndex: 0,
+            // zero-based index of the initial selected cell
+
+            lazyLoad: true,
+            // enable lazy-loading images
+            // set img data-flickity-lazyload="src.jpg"
+            // set to number to load images adjacent cells
+
+            percentPosition: true,
+            // sets positioning in percent values, rather than pixels
+            // Enable if items have percent widths
+            // Disable if items have pixel widths, like images
+
+            prevNextButtons: true,
+            // creates and enables buttons to click to previous & next cells
+
+            pageDots: true,
+            // create and enable page dots
+
+            resize: true,
+            // listens to window resize events to adjust size & positions
+
+            rightToLeft: false,
+            // enables right-to-left layout
+
+            setGallerySize: true,
+            // sets the height of gallery
+            // disable if gallery already has height set with CSS
+
+            watchCSS: false,
+            // watches the content of :after of the element
+            // activates if #element:after { content: 'flickity' }
+
+            wrapAround: true
+            // at end of cells, wraps-around to first for infinite scrolling
+
+        });
+</script>
+  </body>
